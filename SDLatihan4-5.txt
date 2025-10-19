@@ -1,0 +1,5 @@
+Berikut ciri-ciri dari single stack untuk setiap kondisi:
+a)	Kosong → Nilai TOP = -1, artinya tidak ada data di dalam stack.
+b)	 Penuh → Nilai TOP = MAX - 1, artinya semua posisi stack sudah terisi.
+c)	Bisa diisi → Nilai TOP < MAX - 1, artinya masih ada ruang untuk menambah data.
+d)	Ada isinya → Nilai TOP ≥ 0, artinya sudah ada minimal satu data di dalam stack
