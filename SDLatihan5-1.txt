@@ -1,0 +1,32 @@
+Tulislah algoritma yang lengkap untuk : 
+a.	Mengisi Stack1 (PUSH1) 
+    Menambahkan data ke Stack 1
+      •	Jika TOP1 + 1 == TOP2, maka Stack penuh, tampilkan pesan “Stack penuh!”.
+      •	Jika tidak penuh:
+        TOP1 = TOP1 + 1
+        STACK[TOP1] = data
+      •	Selesai.
+
+b.	Menghapus isi Stack1 (POP1) 
+    Menghapus data dari Stack 1
+      •	Jika TOP1 == -1, maka Stack kosong, tampilkan pesan “Stack kosong!”.
+      •	Jika tidak kosong:
+        data = STACK[TOP1]
+        TOP1 = TOP1 – 1
+      •	Tampilkan data yang dihapus (opsional).
+      •	Selesai.
+c.	Mengisi Stack2 (PUSH2) 
+    Menambahkan data ke Stack 2
+      •	Jika TOP1 + 1 == TOP2, maka Stack penuh, tampilkan pesan “Stack penuh!”.
+      •	Jika tidak penuh:
+    TOP2 = TOP2 – 1
+    STACK[TOP2] = data
+      •	Selesai.
+d.	Menghapus isi Stack2 (POP2) 
+    Menghapus data dari Stack 2 
+      •	Jika TOP2 == MAX, maka Stack kosong, tampilkan pesan “Stack kosong!”.
+      •	Jika tidak kosong:
+        data = STACK[TOP2]
+        TOP2 = TOP2 + 1
+        Tampilkan data yang dihapus (opsional). 
+      •	Selesai.
