@@ -1,0 +1,35 @@
+Tulislah Algoritma Dasar dari: 
+a.	Mengisi Stack1 (PUSH1) 
+    Algoritma PUSH1
+      •	Jika TOP1 + 1 = TOP2, maka tampilkan "Stack penuh"
+      •	Jika tidak:
+        TOP1 ← TOP1 + 1
+        STACK[TOP1] ← DATA
+      •	Selesai
+
+b.	Menghapus isi Stack1 (POP1) 
+    Algoritma POP1
+      •	Jika TOP1 = -1, maka tampilkan "Stack kosong"
+      •	Jika tidak:
+        DATA ← STACK[TOP1]
+        TOP1 ← TOP1 - 1
+      •	Selesai
+c.	Mengisi Stack2 (PUSH2) 
+    Algoritma PUSH2
+      •	Jika TOP1 + 1 = TOP2, maka tampilkan "Stack penuh"
+      •	Jika tidak:
+        TOP2 ← TOP2 – 1
+        STACK[TOP2] ← DATA
+      •	Selesai
+d.	Menghapus isi Stack2 (POP2)
+    Algoritma POP2
+      •	Jika TOP2 = MAX, maka tampilkan "Stack kosong"
+      •	Jika tidak:
+        DATA ← STACK[TOP2]
+        TOP2 ← TOP2 + 1
+      •	Selesai
+PENJELASAN:
+Algoritma ini menggambarkan langkah dasar logika Double Stack, di mana:
+•	Stack1 tumbuh dari kiri ke kanan (TOP1 naik).
+•	Stack2 tumbuh dari kanan ke kiri (TOP2 turun).
+
